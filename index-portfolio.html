@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <! -- La siguiente meta es para para definir la configuración de visualización en dispositivos móviles. 
+    Indica a la página que coincida con el ancho de la pantalla en píxeles independientes del dispositivo.>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrea Cristancho</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals" />
+    <meta name="author" content="Andrea Fernanda Cristancho Cortés" />
+    <link rel="stylesheet" href="styles/base-portfolio.css" />
+    <link rel="stylesheet" href="styles/large-portfolio.css">
+    <script src="scripts/getdates-portfolio.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Andrea Cristancho</h1>   
+      <nav>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/andrea-f-cristancho-cort%C3%A9s-804629b1/"
+              >LinkedIn Profile</a></li>
+          <li> <a href="https://www.churchofjesuschrist.org/study/scriptures/ot/isa/40?lang=spa&id=p29-p31#p29"
+              >Scripture</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="card_1">
+
+        <h2 class="title-cards">About Me</h2>      
+        <div class="inside-card1">
+        <picture class="andrea">
+          <source srcset="images/andrea-cara-1200.webp" media=(min-width:1200px)>
+          <source srcset="images/andrea-cara-600.webp" media=(min-width:600px)>
+          <img src="images/andrea-cara-600.webp"  loading="lazy" srcset="images/andrea-cara-600.webp 600w, images/andrea-cara-1200.webp 1000w"
+          sizes="(min-width: 1200px) 100vw, (min-width: 600px) 50vw, 100vw"
+          alt ="Andrea Image">
+      </picture>
+
+      <p><span></span>My name is Andrea Cristancho. I live in Bogota, Colombia South America.  I'm an industrial engineer and I currently work with consulting small businesses. </p>
+       <p> I am a web developer in training and I have taken online courses in <span>HTML, CSS  </span> and <span>JAVASCRIPT </span>at Brigham Young University.
+        </p>
+     
+        </div>
+
+        <h2>Colombia</h2>
+
+        <div class="inside-card1">
+          <picture>
+            <source srcset="images/colombia-1200.webp" media=(min-width:1204px)>
+            <source srcset="images/colombia-600.webp" media=(min-width:600px)>
+            <img src="images/colombia-350.webp"  loading="lazy" srcset="images/colombia-350.webp 500w, images/colombia-1200.webp 1000w"
+            sizes="(min-width: 1204px) 100vw, (min-width: 600px) 50vw, 100vw"
+            alt ="Colombia Image">
+        </picture>
+          <p>Colombia, a diverse and welcoming country in South America, offers breathtaking landscapes, rich culture and delicious cuisine. With mountains, jungles and beaches, it is a destination that captivates with its natural beauty.</p>
+        </div>
+      </section>
+    
+
+      <section class="card_2">
+        <h2 class="title-cards">My Projects</h2>
+
+        <ul class="projects-title">
+          <li><a href="https://andreacristancho.github.io/wdd131/project.html">Share my Data</a></li>
+          <li><a href="https://andreacristancho.github.io/wdd131/filtered-temples.html">Temple Album - JavaScript</a></li>
+          <li><a href="https://andreacristancho.github.io/wdd131/place.html">Colombia - Responsive</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <span id="currentyear"></span>
+        Andrea Fernanda Cristancho. Colombia
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>

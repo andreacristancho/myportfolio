@@ -1,0 +1,97 @@
+@media (min-width: 1204px) {
+
+    header h1 {
+    font-size: 3.5rem;
+    }
+  
+    main {
+      max-width: 100%;
+      margin: 50px; /* Establece los márgenes automáticos para centrar horizontalmente */
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto 1fr auto 1fr;
+
+      
+     
+    }
+    
+  
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-right: 80px;
+      margin-left: 80px;
+      
+    
+    }
+    
+    nav ul li  {
+      margin-right:80px;
+      margin-left: 80px;
+      
+    }
+  
+    nav ul li a {
+      font-size: 1.5rem;
+      
+    }
+
+    .title-cards {
+      font-size: 2.1rem;
+    }
+    
+  .andrea{
+      max-width: 70%; 
+      margin: auto;
+    }
+  
+    .inside-card1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    ul .projects-title {
+      margin-bottom: 100px;
+      padding-bottom: 100px;
+    }
+  
+    .inside-card1 p {
+      font-size: 1.0rem;
+    }
+  
+    .inside-card1  picture img {
+      width: 100%;
+    }
+    .card_1 {
+        margin-right: 50px;
+    }
+
+    .card_1  h2{
+      font-size: 2rem;
+     
+  }
+
+ 
+    .card_2 ul {
+     
+      padding-bottom: 80px;
+    }
+  
+    .card_2 ul li {
+      padding: 15px;
+      font-size: 1.5rem;
+      padding-bottom: 50px;
+      font-size: 2rem;
+    }
+
+    footer {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      font-size: 2rem;
+    }
+ 
+  }
+  
+
